@@ -26,4 +26,3 @@ services:
       - "80:3000"
     volumes:
       - ./config:/wiki/config
-      - /home/yourusername/.ssh:/root/.ssh:ro
