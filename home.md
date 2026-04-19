@@ -2,7 +2,7 @@
 title: Introducing Ultron
 description: A short and formal getting-to-know Ultron
 published: true
-date: 2026-04-19T15:00:25.871Z
+date: 2026-04-19T15:06:31.657Z
 tags: intro, introduction, basics, hpc, ultron
 editor: markdown
 dateCreated: 2026-04-09T09:18:28.161Z
@@ -41,6 +41,28 @@ The next time you think about training an AI model locally on your consumer-grad
 - Currently, we are targeting AI and ML related heavy-lifting. Relevant packages and libraries are to be pre-installed. 
 - Students will be able to register for accounts on Ultron and remotely transfer relevant files for the training.
 - Ultron supports requests for usage of the HPC in other dimensions. In this light, requests for custom software can be raised.
+
+## Ultron's Building Blocks
+Ultron is an compute cluster and its current architecture follows the schematics above. We have ***login/head nodes*** and ***compute nodes***. These are naturally computers of differing abilities put to roles that best suits them. For you to get an idea of the HPC's muscle, here are the summary tables,
+
+### Head Nodes: Raven-1 to Raven-3
+| Specification | Details |
+| :--- | :--- |
+| **Processor** | Core i9-12900 (16 Cores) |
+| **RAM** | 32 GB (16GB x 2) |
+| **Storage** | 2TB HDD, 512 GB SSD |
+| **GPU** | NVIDIA TRX A4000 16GB |
+
+---
+
+### Compute Nodes: Argon-1 to Argon-10
+| Specification | Details |
+| :--- | :--- |
+| **Processor** | Core i9 13900K (24 Cores) |
+| **RAM** | 128 GB |
+| **Storage** | 2TB HDD, 2TB SSD |
+| **GPU** | NVIDIA GeForce RTX 4090 24GB |
+
 
 ## Using Ultron
 This manual will help you use Ultron for your AI and ML related tasks. We are also open to expanding Ultron for other applications. Ready to start?
