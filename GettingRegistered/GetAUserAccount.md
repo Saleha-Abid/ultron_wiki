@@ -2,7 +2,7 @@
 title: Get a User Account
 description: To use Ultron, you must have a user account.
 published: true
-date: 2026-04-19T16:26:29.717Z
+date: 2026-04-19T18:14:18.482Z
 tags: user, accounts, registration, register
 editor: markdown
 dateCreated: 2026-04-19T15:09:11.426Z
@@ -69,4 +69,4 @@ There's your space! Add all your heavy datasets here. To learn more about managi
 ## Summing Up
 You now have a user account on Ultron's HPC. Let's move on to learning about the file systems and then onto submitting your first job for AI training.
 
-Next: [KnowYourSpace](/UsingUltron/KnowYourSpace)
+Next: [Know Your Space](/UsingUltron/KnowYourSpace)
