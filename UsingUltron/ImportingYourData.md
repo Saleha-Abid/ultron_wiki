@@ -2,7 +2,7 @@
 title: Importing Your Data
 description: Copy your datasets and your python scripts
 published: true
-date: 2026-04-19T17:29:07.650Z
+date: 2026-04-19T17:31:32.228Z
 tags: datasets, scripts, copying, scp, sftp
 editor: markdown
 dateCreated: 2026-04-19T16:19:14.729Z
@@ -29,6 +29,13 @@ The requirement of the python script we are using for training is such that we m
 ```bash
 scp -r archive/PetImages/ student@192.168.24.100:/data/student/
 ```
+
+Once this is done, verify if your files are there. SSH into Ultron, then
+
+```bash
+ls /data/testuser
+```
+This should return `PetImages`. Congratulations, your dataset has travelled safe.
 
 ## Creating/Copying Python Script
 With the dataset copied, we must now create our project directory and copy in our python script. Login to your account,
