@@ -2,7 +2,7 @@
 title: Get a User Account
 description: To use Ultron, you must have a user account.
 published: true
-date: 2026-04-19T16:02:32.968Z
+date: 2026-04-19T16:10:54.444Z
 tags: user, accounts, registration, register
 editor: markdown
 dateCreated: 2026-04-19T15:09:11.426Z
@@ -58,4 +58,15 @@ SSH again - this time successfully,
 ssh student@192.168.24.100
 ```
 
-## 
+## Addons with the User Account
+In addition to the user account, which gives you real estate on the head nodes much limited drive, Ultron's users get a directory on the HPC's more permanent file system. To access it, login using SSH then,
+```bash
+cd /data/student
+```
+
+There's your space! Add all your heavy datasets here. To learn more about managing space efficiently and responsibly, follow along.
+
+## Summing Up
+You now have a user account on Ultron's HPC. Let's move on to learning about the file systems and then onto submitting your first job for AI training.
+
+Next:
