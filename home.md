@@ -2,7 +2,7 @@
 title: Introducing Ultron
 description: A short and formal getting-to-know Ultron
 published: true
-date: 2026-04-19T15:06:31.657Z
+date: 2026-04-19T16:11:56.812Z
 tags: intro, introduction, basics, hpc, ultron
 editor: markdown
 dateCreated: 2026-04-09T09:18:28.161Z
@@ -65,4 +65,4 @@ Ultron is an compute cluster and its current architecture follows the schematics
 
 
 ## Using Ultron
-This manual will help you use Ultron for your AI and ML related tasks. We are also open to expanding Ultron for other applications. Ready to start?
+This manual will help you use Ultron for your AI and ML related tasks. We are also open to expanding Ultron for other applications. [Ready to start?](/GettingRegistered/GetAUserAccount)
