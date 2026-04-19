@@ -2,7 +2,7 @@
 title: Know Your Space
 description: Keep your data on Ultron intelligently
 published: true
-date: 2026-04-19T16:51:04.596Z
+date: 2026-04-19T16:52:02.103Z
 tags: filesystem, drives, disks, space, storage, files
 editor: markdown
 dateCreated: 2026-04-19T16:17:27.527Z
@@ -14,7 +14,7 @@ Ultron has a complicated file system which is to be used responsible. We can gen
 
 > The `/home/student` is not for **heavy** or **permanent** data. Use it for scripts and logs. We advise moving results to your laptop soon after you have achieved your objective. 
 {.is-warning}
-2. The `/scratch/student` on the compute nodes. There is one just for you on each compute nodes (there are ten compute nodes). The disk is a promising 2TB. But don't keep data lying there. This is scratch space to facilitate computation by reading from an SSD instead of over the network. Besides, your compute node might change the next time you submit a job - data lying on the SSD of an older node won't do you any good. Again, clear the scratch once you've completed a project.
+2. The `/scratch/student` on the compute nodes. There is one just for you on each compute nodes (there are ten compute nodes). The disk is a promising 2TB. But don't keep data lying there. This is a scratch space to facilitate computation by reading from an SSD instead of over the network. Besides, your compute node might change the next time you submit a job - data lying on the SSD of an older node won't do you any good. Again, clear the scratch once you've completed a project.
 3. The `/data/student` on the networked filesystem. This is where you keep your heavier, more permanent data. This disk is backed up to keep your data safe and sound. 
 
 ## Where to Keep What
