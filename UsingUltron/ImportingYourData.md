@@ -2,7 +2,7 @@
 title: Importing Your Data
 description: Copy your datasets and your python scripts
 published: true
-date: 2026-04-19T17:31:32.228Z
+date: 2026-04-19T17:31:50.824Z
 tags: datasets, scripts, copying, scp, sftp
 editor: markdown
 dateCreated: 2026-04-19T16:19:14.729Z
@@ -33,7 +33,7 @@ scp -r archive/PetImages/ student@192.168.24.100:/data/student/
 Once this is done, verify if your files are there. SSH into Ultron, then
 
 ```bash
-ls /data/testuser
+ls /data/student
 ```
 This should return `PetImages`. Congratulations, your dataset has travelled safe.
 
