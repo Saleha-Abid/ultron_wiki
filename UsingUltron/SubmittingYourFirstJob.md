@@ -2,7 +2,7 @@
 title: Submitting Your First Job
 description: Learn how to use our home-made script to create basic slurm batch files.
 published: true
-date: 2026-04-19T18:09:45.136Z
+date: 2026-04-21T16:23:26.925Z
 tags: slurm, batch script, jobs, ai, ml, training, running scripts
 editor: markdown
 dateCreated: 2026-04-19T16:21:56.174Z
@@ -18,10 +18,10 @@ Slurm is professional tool used in HPCs across the world for job scheduling. Its
 - The amount of memory required
 - The expected time the job demands
 
-For ease of our users, we have a custom **script generate** for AI and ML. Run this in your project directory. Following Cats-vs-Dogs, this would be `~/animals/`
+For ease of our users, we have a custom **script generate** for AI and ML. Run this in your VSCode terminal after you have connected to Remote host. 
 
 ```bash
-cd /home/student/animals
+cd animals
 gen-script
 ```
 It will ask you a bunch of parameters, in our case,
@@ -87,7 +87,7 @@ Essentially everything after line 12 is written as if you are on the node itself
 {.is-info}
 
 ## Running the Script
-Let's train our model. Run,
+Let's train our model. On the VSCode terminal, run,
 ```bash
 sbatch submit_cats.sh
 ```
@@ -104,19 +104,8 @@ To cancel your job,
 scancel 49
 ```
 `49` is your JobID. You identify it through `squeue`. When your job is done, it will disappear from `squeue`.
-```bash
-student@head01:~/animals$ tree
-.
-├── cats_dogs_resnet18.pth
-├── logs
-│   ├── job_49.err
-│   └── job_49.log
-├── submit_cats.sh
-└── train.py
 
-2 directories, 5 files
-```
-The trained model is sitting right there! We also have our log files. The `.err` file gives you any and all errors encountered including those for you python script. The `.log` gives you the Terminal outputs all along the execution. Check them to know how the training went.
+Look at your *File Exporer* panel on the left. The trained model is sitting right there! We also have our log files. The `.err` file gives you any and all errors encountered including those for you python script. The `.log` gives you the Terminal outputs all along the execution. Check them to know how the training went.
 
 ## Deciding Your Rescources
 How many CPUs do you need? Do you need a GPU for your training or not? These are common questions that might baffle you when creating a job script. Here are some pointers,
