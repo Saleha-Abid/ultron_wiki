@@ -2,7 +2,7 @@
 title: Importing Your Data
 description: Copy your datasets and your python scripts
 published: true
-date: 2026-04-19T17:31:50.824Z
+date: 2026-04-21T16:20:57.396Z
 tags: datasets, scripts, copying, scp, sftp
 editor: markdown
 dateCreated: 2026-04-19T16:19:14.729Z
@@ -38,22 +38,16 @@ ls /data/student
 This should return `PetImages`. Congratulations, your dataset has travelled safe.
 
 ## Creating/Copying Python Script
-With the dataset copied, we must now create our project directory and copy in our python script. Login to your account,
-```bash
-ssh student@192.168.24.100
-```
-Create a new directory,
+With the dataset copied, we must now create our project directory and copy in our python script. We can do this the raw way - via the terminal but VSCode makes things so much simpler and intuitive. 
+
+1. Open VSCode and install the extension `Remote-SSH`.
+2. Press `F1` to open the **Command Palette**. Type in **Remote-SSH: Connect to Host...**. Enter `student@192.168.24.100`, then press **Enter**. It shall prompt you for a password. Enter it.
+3. Open the VSCode terminal. Make a new directory by entering,
 ```bash
 mkdir animals
 ```
-Now from your laptop, copy your python script,
-```bash
-scp train.py student@192.168.24.100:/home/student/animals/
-``` 
-Or create a file and write your script. `nano` is a text editor in your terminal. 
-```bash
-nano train.py
-```
+4. Go to the **File** menu and open the *animals* folder. You have your workspace now. 
+5. Create a new file by the name *train.py*. Code.
 
 ## Summing Up
 This does it for creating a copy of your files on Ultron. You are ready to train the model now.
