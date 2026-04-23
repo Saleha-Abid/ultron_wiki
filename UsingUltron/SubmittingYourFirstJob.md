@@ -2,7 +2,7 @@
 title: Submitting Your First Job
 description: Learn how to use our home-made script to create basic slurm batch files.
 published: true
-date: 2026-04-23T06:48:09.583Z
+date: 2026-04-23T13:25:59.545Z
 tags: slurm, batch script, jobs, ai, ml, training, running scripts
 editor: markdown
 dateCreated: 2026-04-19T16:21:56.174Z
@@ -18,7 +18,7 @@ Slurm is professional tool used in HPCs across the world for job scheduling. Its
 - The amount of memory required
 - The expected time the job demands
 
-For ease of our users, we have a custom **script generate** for AI and ML. Run this in your VSCode terminal after you have connected to Remote host.  
+For ease of our users, we have a custom **script generate** for AI and ML. Run this in your VSCode terminal after you have connected to Remote host.   
 
 ```bash
 cd animals
