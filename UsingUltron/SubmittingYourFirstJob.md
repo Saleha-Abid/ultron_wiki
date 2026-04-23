@@ -2,7 +2,7 @@
 title: Submitting Your First Job
 description: Learn how to use our home-made script to create basic slurm batch files.
 published: true
-date: 2026-04-21T16:23:26.925Z
+date: 2026-04-23T06:45:59.507Z
 tags: slurm, batch script, jobs, ai, ml, training, running scripts
 editor: markdown
 dateCreated: 2026-04-19T16:21:56.174Z
@@ -41,10 +41,9 @@ NFS Source Path: /data/testuser/PetImages
 👉 To run: sbatch submit_cats.sh
 ```
 
-My python file outputs its model by the file name of `cats_dogs_resnet18.pth`. To look at the script run,
+My python file outputs its model by the file name of `cats_dogs_resnet18.pth`. The script will appear on the *File Explore* panel on the left.
 
 ```bash
-student@head01:~/animals$ cat submit_cats.sh 
 #!/bin/bash
 #SBATCH --job-name=cats
 #SBATCH --nodes=1
