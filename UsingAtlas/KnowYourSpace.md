@@ -2,14 +2,14 @@
 title: Know Your Space
 description: Keep your data on Atlas intelligently
 published: true
-date: 2026-04-27T03:15:18.271Z
+date: 2026-04-27T03:20:27.657Z
 tags: filesystem, drives, disks, space, storage, files
 editor: markdown
 dateCreated: 2026-04-19T16:17:27.527Z
 ---
 
-# About Ultron's File System
-Ultron has a complicated file system which is to be used responsible. We can generalize three locations that are assigned to users:
+# About Atlas's File System
+Atlas has a complicated file system which is to be used responsible. We can generalize three locations that are assigned to users:
 1. Your `/home/student` directory. When your account is created, this directory comes with it. As previously mentioned, **users only login to the login/head nodes**. This means all users are sharing a collective of only 512GB data. Also, the home directories are not synced in between the two login nodes. When the shift occurs, any data there leaves you stranded.
 
 > The `/home/student` is not for **heavy** or **permanent** data. Use it for scripts and logs. We advise moving results to your laptop soon after you have achieved your objective. 
@@ -29,5 +29,5 @@ Here are some helpful pointers from the sysadmins,
 ## Summing Up
 This page was meant to give users an insight of the cluster's available space. An understanding of this helps in better operation and also allows one to make the most out of this facility.
 
-Next: [ImportingYourData](/UsingUltron/ImportingYourData)
+Next: [ImportingYourData](/UsingAtlas/ImportingYourData)
  
