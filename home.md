@@ -1,9 +1,9 @@
 ---
-title: Introducing Ultron
-description: A short and formal getting-to-know Ultron
+title: Introducing Atlas
+description: A short and formal getting-to-know Atlas
 published: true
-date: 2026-04-19T16:11:56.812Z
-tags: intro, introduction, basics, hpc, ultron
+date: 2026-04-27T03:14:17.994Z
+tags: intro, introduction, basics, hpc, atlas
 editor: markdown
 dateCreated: 2026-04-09T09:18:28.161Z
 ---
