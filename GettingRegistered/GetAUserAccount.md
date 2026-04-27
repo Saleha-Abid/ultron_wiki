@@ -1,8 +1,8 @@
 ---
 title: Get a User Account
-description: To use Ultron, you must have a user account.
+description: To use Atlas, you must have a user account.
 published: true
-date: 2026-04-19T18:14:18.482Z
+date: 2026-04-27T03:14:37.214Z
 tags: user, accounts, registration, register
 editor: markdown
 dateCreated: 2026-04-19T15:09:11.426Z
