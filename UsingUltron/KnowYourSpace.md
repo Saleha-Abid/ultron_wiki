@@ -2,7 +2,7 @@
 title: Know Your Space
 description: Keep your data on Atlas intelligently
 published: true
-date: 2026-04-27T03:14:55.728Z
+date: 2026-04-27T03:15:18.271Z
 tags: filesystem, drives, disks, space, storage, files
 editor: markdown
 dateCreated: 2026-04-19T16:17:27.527Z
