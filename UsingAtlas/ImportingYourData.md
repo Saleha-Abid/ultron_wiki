@@ -2,7 +2,7 @@
 title: Importing Your Data
 description: Copy your datasets and your python scripts
 published: true
-date: 2026-04-27T03:20:54.882Z
+date: 2026-04-27T03:24:29.237Z
 tags: datasets, scripts, copying, scp, sftp
 editor: markdown
 dateCreated: 2026-04-19T16:19:14.729Z
@@ -24,10 +24,10 @@ sysadmin@sysadmin-HP-EliteBook-850-G4:~/Downloads/archive$ tree -d
 
 4 directories
 ```
-The requirement of the python script we are using for training is such that we must only have the two folders `Cat` and `Dog`. The additional files are not required. We copy the appropriate dataset. This might take a while.
+The requirement of the python script we are using for training is such that we must only have the two folders `Cat` and `Dog`. The additional files are not required. We must be aware of this. To improve speeds of transfer, copy the `.zip` file.
 
 ```bash
-scp -r archive/PetImages/ student@192.168.24.100:/data/student/
+scp archive.zip student@192.168.24.100:/data/student/
 ```
 
 Once this is done, verify if your files are there. SSH into Atlas, then
@@ -35,7 +35,12 @@ Once this is done, verify if your files are there. SSH into Atlas, then
 ```bash
 ls /data/student
 ```
-This should return `PetImages`. Congratulations, your dataset has travelled safe.
+This should return `archive.zip`. Unzip it.
+```bash
+unzip archive.zip
+```
+
+Congratulations, your dataset has travelled safe.
 
 ## Creating/Copying Python Script
 With the dataset copied, we must now create our project directory and copy in our python script. We can do this the raw way - via the terminal but VSCode makes things so much simpler and intuitive. 
