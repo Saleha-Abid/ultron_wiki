@@ -2,14 +2,14 @@
 title: Importing Your Data
 description: Copy your datasets and your python scripts
 published: true
-date: 2026-04-27T03:15:37.165Z
+date: 2026-04-27T03:20:54.882Z
 tags: datasets, scripts, copying, scp, sftp
 editor: markdown
 dateCreated: 2026-04-19T16:19:14.729Z
 ---
 
-# Moving Files to Ultron
-Since computation is to be performed on Ultron, it must have all your relevant files. Ultron is currently targeted for AI and ML so with that objective in mind, we'll train a simple Cat-vs-Dog CNN.
+# Moving Files to Atlas
+Since computation is to be performed on Atlas, it must have all your relevant files. Atlas is currently targeted for AI and ML so with that objective in mind, we'll train a simple Cat-vs-Dog CNN.
 
 ## Copying the Dataset
 First we download the dataset from [Kaggle](https://www.kaggle.com/datasets/shaunthesheep/microsoft-catsvsdogs-dataset?resource=download). The structure of the downloaded and then unzipped folder is as follows,
@@ -30,7 +30,7 @@ The requirement of the python script we are using for training is such that we m
 scp -r archive/PetImages/ student@192.168.24.100:/data/student/
 ```
 
-Once this is done, verify if your files are there. SSH into Ultron, then
+Once this is done, verify if your files are there. SSH into Atlas, then
 
 ```bash
 ls /data/student
@@ -50,7 +50,7 @@ mkdir animals
 5. Create a new file by the name *train.py*. Code.
 
 ## Summing Up
-This does it for creating a copy of your files on Ultron. You are ready to train the model now.
+This does it for creating a copy of your files on Atlas. You are ready to train the model now.
 
-Next: [Submitting Your First Job](/UsingUltron/SubmittingYourFirstJob)
+Next: [Submitting Your First Job](/UsingAtlas/SubmittingYourFirstJob)
 
