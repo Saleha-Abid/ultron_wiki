@@ -2,14 +2,14 @@
 title: Submitting Your First Job
 description: Learn how to use our home-made script to create basic slurm batch files.
 published: true
-date: 2026-04-27T03:15:57.308Z
+date: 2026-04-27T03:21:36.845Z
 tags: slurm, batch script, jobs, ai, ml, training, running scripts
 editor: markdown
 dateCreated: 2026-04-19T16:21:56.174Z
 ---
 
 # The First Slurm Job
-This is the final step to training our Cats-vs-Dogs CNN. Ultron as an HPC uses **Slurm** as its *Job Scheduler*. Ultron's entire use depends on using Slurm to submit jobs which are infact just python scripts in the running. This site will guide you in Slurm's efficient use but you can read more about it [here](https://slurm.schedmd.com/). 
+This is the final step to training our Cats-vs-Dogs CNN. Atlas as an HPC uses **Slurm** as its *Job Scheduler*. Atlas's entire use depends on using Slurm to submit jobs which are infact just python scripts in the running. This site will guide you in Slurm's efficient use but you can read more about it [here](https://slurm.schedmd.com/). 
 
 ## Generating the Batch Script
 Slurm is professional tool used in HPCs across the world for job scheduling. Its use is complicated and detailed. One way to use it is through job scripts. We create simple bash files and execute them using the `sbatch` command. The bash file includes a lot of parameters. Listed below are only some of them.
@@ -27,7 +27,7 @@ gen-script
 It will ask you a bunch of parameters, in our case,
 ```bash
 student@head01:~/animals$ gen-script
---- Ultron Job Generator [Dir: animals] ---
+--- Atlas Job Generator [Dir: animals] ---
 Job Name [animals]: cats
 Python Script Name (e.g., train.py): train.py
 Output Model Name (Enter to skip): cats_dogs_resnet18.pth
@@ -54,7 +54,7 @@ My python file outputs its model by the file name of `cats_dogs_resnet18.pth`. T
 #SBATCH --output=/scratch/student/animals/logs/job_%j.log
 #SBATCH --error=/scratch/student/animals/logs/job_%j.err
 
-# Standard Ultron Paths
+# Standard Atlas Paths
 REMOTE_HOST="head01"
 REMOTE_PATH="/home/student/animals"
 LOCAL_SCRATCH="/scratch/student/animals"
@@ -114,8 +114,6 @@ How many CPUs do you need? Do you need a GPU for your training or not? These are
 - There are also other parameters but the `gen-script` ignores them for basic usage. Learn how to create advanced scripts by following along.
 
 ## Summing Up
-Congratulations, you trained your first model on Ultron. This was a simple Cats-vs-Dogs CNN but with your basics to handle datasets and script locations, you can train any model!
+Congratulations, you trained your first model on Atlas. This was a simple Cats-vs-Dogs CNN but with your basics to handle datasets and script locations, you can train any model!
 
 Next: 
-
-
