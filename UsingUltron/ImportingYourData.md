@@ -2,7 +2,7 @@
 title: Importing Your Data
 description: Copy your datasets and your python scripts
 published: true
-date: 2026-04-21T16:20:57.396Z
+date: 2026-04-27T03:15:37.165Z
 tags: datasets, scripts, copying, scp, sftp
 editor: markdown
 dateCreated: 2026-04-19T16:19:14.729Z
