@@ -2,21 +2,21 @@
 title: Get a User Account
 description: To use Atlas, you must have a user account.
 published: true
-date: 2026-04-27T03:14:37.214Z
+date: 2026-04-27T03:19:58.998Z
 tags: user, accounts, registration, register
 editor: markdown
 dateCreated: 2026-04-19T15:09:11.426Z
 ---
 
-# Register for Ultron
-Ultron is not openly accessible to any user. The following conditions apply,
+# Register for Atlas
+Atlas is not openly accessible to any user. The following conditions apply,
 1. You must be on the **CAE network**.
 2. You must have a **verified account** on the HPC.
 
 Getting on the CAE network is easy. Connect to the institution's Wi-Fi/Wired Network on campus, in the libary or in your blocks. You'll be instantly able to access this page and login to the cluster. For the second condition, getting a verified account, read on.
 
 ## Getting a Verified Account
-All individuals who sign up for an account on Ultron's official manual (this site) are automatically provided an account on the HPC. Follow along,
+All individuals who sign up for an account on Atlas's official manual (this site) are automatically provided an account on the HPC. Follow along,
 1. Navigate to the top-right corner on the site and click on the *profile* icon.
 2. Sign up with your **institution email**. Other domains are not allowed. 
 3. Wait for a verification e-mail. This email will give you your credentials for login.
@@ -59,7 +59,7 @@ ssh student@192.168.24.100
 ```
 
 ## Addons with the User Account
-In addition to the user account, which gives you real estate on the head nodes much limited drive, Ultron's users get a directory on the HPC's more permanent file system. To access it, login using SSH then,
+In addition to the user account, which gives you real estate on the head nodes much limited drive, Atlas's users get a directory on the HPC's more permanent file system. To access it, login using SSH then,
 ```bash
 cd /data/student
 ```
@@ -67,6 +67,6 @@ cd /data/student
 There's your space! Add all your heavy datasets here. To learn more about managing space efficiently and responsibly, follow along.
 
 ## Summing Up
-You now have a user account on Ultron's HPC. Let's move on to learning about the file systems and then onto submitting your first job for AI training.
+You now have a user account on Atlas's HPC. Let's move on to learning about the file systems and then onto submitting your first job for AI training.
 
-Next: [Know Your Space](/UsingUltron/KnowYourSpace)
+Next: [Know Your Space](/UsingAtlas/KnowYourSpace)
